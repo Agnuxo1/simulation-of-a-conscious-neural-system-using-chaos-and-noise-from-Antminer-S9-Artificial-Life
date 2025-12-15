@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.safetensors
+*.bin
+*.exe
+*.dll
+.vscode/
+.git/
+wandb/
+muse_story.txt
+brain_weights.json

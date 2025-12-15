@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "scilab",
+            "request": "launch",
+            "name": "CHIMERA HNS Analysis",
+            "file": "${workspaceFolder}/chimera_main.sce",
+            "workingDirectory": "${workspaceFolder}",
+            "args": ["-f", "${workspaceFolder}/chimera_main.sce"],
+            "keepAlive": true
+        },
+        {
+            "type": "scilab", 
+            "request": "launch",
+            "name": "Consciousness Metrics Calculator",
+            "file": "${workspaceFolder}/consciousness_metrics.sce",
+            "workingDirectory": "${workspaceFolder}",
+            "args": ["-f", "${workspaceFolder}/consciousness_metrics.sce"],
+            "keepAlive": true
+        },
+        {
+            "type": "scilab",
+            "request": "launch", 
+            "name": "Phase Transition Analysis",
+            "file": "${workspaceFolder}/phase_transitions.sce",
+            "workingDirectory": "${workspaceFolder}",
+            "args": ["-f", "${workspaceFolder}/phase_transitions.sce"],
+            "keepAlive": true
+        }
+    ]
+}
