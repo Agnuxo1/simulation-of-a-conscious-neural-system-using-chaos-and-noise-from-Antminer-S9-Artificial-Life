@@ -1,0 +1,35 @@
+[timestart] 0
+[size] 1920 1080
+[signals_start]
+
+# Mining_Control
+dut.mining_enable
+dut.control_reg\[7:0\]
+dut.status_reg\[7:0\]
+dut.pipeline_busy
+
+# Hash_Processing
+dut.job_header\[255:0\]
+dut.current_nonce\[31:0\]
+dut.current_hash\[255:0\]
+dut.hash_valid
+dut.found_nonce\[31:0\]
+dut.found_hash\[255:0\]
+
+# Performance_Metrics
+dut.hash_count\[15:0\]
+dut.temperature\[7:0\]
+dut.power_consumption\[15:0\]
+dut.thermal_throttle
+
+# HNS_RealTime
+dut.hns_rgba_r\[31:0\]
+dut.hns_rgba_g\[31:0\]
+dut.hns_rgba_b\[31:0\]
+dut.hns_rgba_a\[31:0\]
+dut.hns_energy\[31:0\]
+dut.hns_entropy\[31:0\]
+dut.hns_valid
+[signals_end]
+[tree_open_1]
+[pattern_trace] 1

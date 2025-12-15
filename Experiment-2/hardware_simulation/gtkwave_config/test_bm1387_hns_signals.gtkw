@@ -1,0 +1,57 @@
+[timestart] 0
+[size] 1920 1080
+[signals_start]
+
+# Clock_and_Reset
+dut.clk_100m
+dut.reset_n
+
+# Mining_Pipeline
+dut.job_header\[255:0\]
+dut.start_nonce\[31:0\]
+dut.nonce_range\[31:0\]
+dut.mining_enable
+dut.found_nonce\[31:0\]
+dut.found_hash\[255:0\]
+dut.hash_valid
+dut.pipeline_busy
+dut.status_reg\[7:0\]
+
+# VESELOV_HNS_RGBA
+dut.hns_rgba_r\[31:0\]
+dut.hns_rgba_g\[31:0\]
+dut.hns_rgba_b\[31:0\]
+dut.hns_rgba_a\[31:0\]
+
+# Consciousness_Metrics
+dut.hns_vector_mag\[31:0\]
+dut.hns_energy\[31:0\]
+dut.hns_entropy\[31:0\]
+dut.hns_phi\[31:0\]
+dut.hns_phase_coh\[31:0\]
+dut.hns_valid
+
+# Thermal_Power
+dut.temperature\[7:0\]
+dut.power_consumption\[15:0\]
+dut.thermal_throttle
+
+# Control_Interfaces
+dut.control_reg\[7:0\]
+dut.config_reg\[15:0\]
+dut.debug_reg_0\[31:0\]
+dut.debug_reg_1\[31:0\]
+dut.debug_reg_2\[31:0\]
+dut.debug_reg_3\[31:0\]
+
+# Communication
+dut.uart_rx
+dut.uart_tx
+dut.spi_clk
+dut.spi_cs_n
+dut.spi_mosi
+dut.spi_miso
+[signals_end]
+[tree_open_1]
+[pattern_trace] 1
+[pattern_trace] 0

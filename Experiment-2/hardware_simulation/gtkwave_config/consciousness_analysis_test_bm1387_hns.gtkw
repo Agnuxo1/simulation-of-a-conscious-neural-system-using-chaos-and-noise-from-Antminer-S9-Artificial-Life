@@ -1,0 +1,29 @@
+[timestart] 0
+[size] 1920 1080
+[signals_start]
+
+# HNS_RGBA_Parameters
+dut.hns_rgba_r\[31:0\]
+dut.hns_rgba_g\[31:0\]
+dut.hns_rgba_b\[31:0\]
+dut.hns_rgba_a\[31:0\]
+
+# Consciousness_Computation
+dut.hns_vector_mag\[31:0\]
+dut.hns_energy\[31:0\]
+dut.hns_entropy\[31:0\]
+dut.hns_phi\[31:0\]
+dut.hns_phase_coh\[31:0\]
+
+# Processing_Control
+dut.hns_valid
+dut.u_veselov_hns.hns_state\[7:0\]
+dut.u_veselov_hns.process_counter\[7:0\]
+
+# Hash_Input_Source
+dut.current_hash\[255:0\]
+dut.job_header\[255:0\]
+dut.current_nonce\[31:0\]
+[signals_end]
+[tree_open_1]
+[pattern_trace] 1
